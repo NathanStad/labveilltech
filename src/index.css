@@ -1,0 +1,78 @@
+@import "./locomotiveScroll.css";
+
+:root {
+  --primary-color: #E24946;
+  --primary-color-hover: #842b29;
+  --secondary-color: #2D2D2D;
+  --secondary-color-hover: #181818;
+  --background-color: #F1F1F1;
+}
+/* Reset some default browser styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Set a default font for the entire document */
+body {
+  font-family: "Montserrat", serif;
+  line-height: 1.6;
+  color: var(--secondary-color);
+}
+
+/* Style for headers */
+h1, h2, h3, h4, h5, h6 {
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+
+/* Style for paragraphs */
+p {
+  margin-bottom: 1rem;
+}
+
+/* Style for links */
+a {
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  transition: 0.5s;
+}
+
+/* Style for lists */
+ul {
+  list-style: none;
+}
+
+ul li {
+  margin-bottom: 0.5rem;
+}
+
+/* Style for buttons */
+button {
+  background-color: var(--primary-color);
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: var(--primary-color-hover);
+}
+
+h1 {
+  font-size: 5.5rem;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+h2 {
+  font-size: 3rem;
+  text-transform: uppercase;
+  font-weight: 300;
+}
