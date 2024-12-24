@@ -7,9 +7,9 @@
     "outDir": "./dist",
     "rootDir": "./src",
     "allowJs": true,
-    "moduleResolution": "node", // Résolution correcte des modules
-    "esModuleInterop": true,    // Résolution des modules CommonJS
-    "skipLibCheck": true        // Ignore les erreurs dans node_modules
+    "moduleResolution": "node", // Résolution des modules
+    "esModuleInterop": true,    // Compatibilité avec CommonJS
+    "skipLibCheck": true        // Ignore les vérifications dans node_modules
   },
   "include": ["src/**/*"],
   "exclude": ["node_modules", "dist"]

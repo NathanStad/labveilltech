@@ -56,7 +56,7 @@ function App() {
     <BrowserRouter>
         <Routes>
           <Route index path="/" element={<Home />} />
-          <Route path="/labveiltech" element={<Home />} />
+          <Route path="/labveilltech" element={<Home />} />
 
           <Route path="/article/:id" element={<Article />} />
           <Route path="/about" element={<About />} />
