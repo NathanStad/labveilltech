@@ -1,14 +1,16 @@
 {
-    "compilerOptions": {
-      "jsx": "react-jsx",
-      "target": "ES6",
-      "module": "ESNext",
-      "strict": true,
-      "outDir": "./dist",
-      "rootDir": "./src",
-      "allowJs": true
-    },
-    "include": ["src/**/*"],
-    "exclude": ["node_modules", "dist"]
-  }
-  
+  "compilerOptions": {
+    "jsx": "react-jsx",
+    "target": "ES6",
+    "module": "ESNext",
+    "strict": true,
+    "outDir": "./dist",
+    "rootDir": "./src",
+    "allowJs": true,
+    "moduleResolution": "node", // Résolution correcte des modules
+    "esModuleInterop": true,    // Résolution des modules CommonJS
+    "skipLibCheck": true        // Ignore les erreurs dans node_modules
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "dist"]
+}
